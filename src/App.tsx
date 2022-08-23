@@ -1,4 +1,5 @@
 import "./App.css";
+import Routes from "./Routes";
 
 function App() {
   const FETCH_POKEMON_BY_NAME = "FETCH_POKEMON_BY_NAME";
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <h1>Start!</h1>
+      <Routes />
     </>
   );
 }
